@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>WaterBucket</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="WaterBucketStyles.css">
+</head>
+
+<body>
+  <div class="flex-container">
+    <nav class="navbar navbar-expand-lg justify-content-between">
+      <div class="navbar-brand color1">
+        WaterBucket
+      </div>
+      <a class="btn btn-primary-custom color3" href="Login.html">
+        Sign In
+        <svg class="userIcon-svg-txtSize mb-1 ml-1">
+          <circle class="userIcon-circle-txtSize circleTop-txtSize"></circle>
+          <circle class="userIcon-circle-txtSize circleBottom-txtSize"></circle>
+        </svg></a>
+    </nav>
+    <div class="flex-container-center">
+      <div class="text-center mr-auto ml-auto">
+        <svg class="userIcon-svg mb-4">
+          <circle class="userIcon-circle circleTop"></circle>
+          <circle class="userIcon-circle circleBottom"></circle>
+        </svg>
+        <h3 class="color1">Login</h3>
+      </div>
+
+      <form class="form-signin mr-auto ml-auto" action="Main.html" method="post">
+        <hr>
+        <label for="txtuserName"></label>
+        <input class="inputUserName" type="text" name="txtuserName" placeholder="Username" required autofocus>
+        <label for="txtpassword"></label>
+        <input class="inputPassword" type="password" name="txtpassword" placeholder="Password" required>
+        <a class="text-muted font-weight-light mb-4" href="#"><small>Forgot Password?</small></a>
+        <input class="btn btn-lg btn-block btn-primary-custom mt-4" type="submit" name="btnlogin" value="Login">
+        <div class="createAccount">
+          <a class="color1" href="CreateAccount.html"><small>Create Account</small></a>
+        </div>
+        <div class="text-center">
+          <p class="mt-5 mb-3 text-muted">© 2020 Justin Stel</p>
+        </div>
+      </form>
+    </div>
+  </div>
+
+</body>
+
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="WaterBucketStyles.css">
+
+  <!-- Bootstrap Scripts -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+  <title>WaterBucket Sign-Up</title>
+</head>
+
+<body>
+  <div class="flex-container">
+    <nav class="navbar navbar-expand-lg justify-content-between ">
+      <div class="navbar-brand color1">
+        WaterBucket
+      </div>
+      <a class="btn btn-primary-custom color3" href="Login.html">
+        Sign In
+        <svg class="userIcon-svg-txtSize mb-1 ml-1">
+          <circle class="userIcon-circle-txtSize circleTop-txtSize"></circle>
+          <circle class="userIcon-circle-txtSize circleBottom-txtSize"></circle>
+        </svg></a>
+    </nav>
+    <div class="flex-container-center">
+      <div class="text-center mr-auto ml-auto">
+            <svg class="userIcon-svg mb-4">
+              <circle class="userIcon-circle circleTop"></circle>
+              <circle class="userIcon-circle circleBottom"></circle>
+            </svg>
+            <h3 class="color1">Create Account</h3>
+          </div>
+
+      <form class="form-signup ml-auto mr-auto" action="Login.html" method="post">
+        <hr>
+        <label class="color1" for="txtuserName">Enter a Username</label>
+        <input class="inputUserName" type="text" name="txtuserName" placeholder="Username" required autofocus>
+        <label class="color1" for="txtpassword">Enter a password</label>
+        <input class="inputNewPassword" type="password" name="txtpassword" placeholder="Password" required>
+        <label class="color1" for="txtpassword">Re-enter your password</label>
+        <input class="inputNewPassword" type="password" name="txtpassword2" placeholder="Password" required>
+        <input class="btn btn-lg btn-block btn-primary-custom mt-4" type="submit" name="btnCreateAccount" value="Create Account">
+        <div class="forgotPass">
+          <span class="color1" href="#"><small>Already have an Account?</small>  </span>
+          <a class="color1" href="Login.html"><small><strong>Sign In</strong></small>  </a>
+        </div>
+        <div class="text-center">
+          <p class="mt-5 mb-3 text-muted">© 2020 Justin Stel</p>
+        </div>
+      </form>
+    </div>
+  </div>
+</body>
+
+</html>
